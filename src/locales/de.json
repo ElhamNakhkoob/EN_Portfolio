@@ -9,5 +9,18 @@
   "Resume": "Lebenslauf",
   "Skills": "Fähigkeiten",
   "Projects": "Projekte",
-  "Contact Me": "Kontakt"
+  "Contact Me": "Kontakt",
+  "contact": {
+    "heading": "Kontakt",
+    "subheading": "Ich freue mich auf Ihre Nachricht!",
+    "nameLabel": "Name",
+    "namePlaceholder": "Ihr Name",
+    "emailLabel": "E-Mail",
+    "emailPlaceholder": "Ihre E-Mail",
+    "messageLabel": "Nachricht",
+    "messagePlaceholder": "Ihre Nachricht",
+    "buttonText": "Nachricht senden",
+    "successMessage": "Nachricht erfolgreich gesendet!",
+    "errorMessage": "Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es später erneut."
+  }
 }

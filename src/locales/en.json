@@ -9,5 +9,18 @@
   "Resume": "Resume",
   "Skills": "Skills",
   "Projects": "Projects",
-  "Contact Me": "Contact Me"
+  "Contact Me": "Contact Me",
+  "contact": {
+    "heading": "Contact Me",
+    "subheading": "Feel free to reach out!",
+    "nameLabel": "Name",
+    "namePlaceholder": "Your Name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Your Email",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Your Message",
+    "buttonText": "Send Message",
+    "successMessage": "Message sent successfully!",
+    "errorMessage": "Failed to send message. Please try again later."
+  }
 }
