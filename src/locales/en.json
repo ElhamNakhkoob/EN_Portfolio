@@ -22,5 +22,11 @@
     "buttonText": "Send Message",
     "successMessage": "Message sent successfully!",
     "errorMessage": "Failed to send message. Please try again later."
+  },
+  "about": {
+    "heading": "Turning ideas into clean, responsive web solutions.",
+    "intro": "Hi! I’m Elham — a creative Full-Stack Developer with 3+ years of experience crafting responsive, user-focused web applications. With a strong foundation in UI/UX design, I specialize in building fast, accessible, and intuitive digital experiences that seamlessly bridge design and functionality — from sleek frontends to robust backends.",
+    "point1": "I believe in writing clean, scalable code, collaborating openly, and continuously improving — whether it’s through code reviews, feedback, or diving into a new tech stack.",
+    "point2": "I’m always open to interesting full-stack projects, design-driven products, or joining a team that values creativity and clean code."
   }
 }
