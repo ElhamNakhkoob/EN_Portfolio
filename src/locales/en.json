@@ -28,5 +28,49 @@
     "intro": "Hi! I’m Elham — a creative Full-Stack Developer with 3+ years of experience crafting responsive, user-focused web applications. With a strong foundation in UI/UX design, I specialize in building fast, accessible, and intuitive digital experiences that seamlessly bridge design and functionality — from sleek frontends to robust backends.",
     "point1": "I believe in writing clean, scalable code, collaborating openly, and continuously improving — whether it’s through code reviews, feedback, or diving into a new tech stack.",
     "point2": "I’m always open to interesting full-stack projects, design-driven products, or joining a team that values creativity and clean code."
+  },
+  "resume": {
+    "experience": {
+      "title": "Work Experience",
+      "job1": {
+        "company": "IT-Tecture (03.2023 - 02.2025)",
+        "role": "Web Frontend Developer",
+        "desc1": "Developed web applications using React.js, Redux, JavaScript, and TypeScript.",
+        "desc2": "Improved and designed UX/UI components.",
+        "desc3": "Code reviews and quality assurance in an agile environment."
+      },
+      "job2": {
+        "company": "Accenture (03.2023 - 08.2025)",
+        "role": "Software Developer",
+        "desc1": "Created responsive UIs with HTML and CSS.",
+        "desc2": "Fullstack development using HTML, CSS, JavaScript, and Java."
+      },
+      "job3": {
+        "company": "Hepster (04.2021 - 02.2023)",
+        "role": "Web Frontend Developer",
+        "desc1": "Web development using HTML, CSS, JavaScript, and Vue.js.",
+        "desc2": "UI testing with Selenium and JavaScript."
+      }
+    },
+    "education": {
+      "title": "Education & Training",
+      "edu1": {
+        "institution": "WBS Coding School (Berlin)",
+        "program": "Fullstack Web and App Development",
+        "frontend": "Frontend: HTML, CSS, JavaScript, React, Generative AI",
+        "backend": "Backend: Node.js, Express.js, MongoDB, SQL, Security"
+      },
+      "edu2": {
+        "institution": "M.Sc – University of Rostock",
+        "program": "Computer Science",
+        "thesis": "Master's thesis on classification systems for educational robot models."
+      },
+      "edu3": {
+        "institution": "B.Sc – Payam-e-Noor University (Iran)",
+        "program": "Computer Science",
+        "project": "Algorithms for generating and combining specifications."
+      }
+    },
+    "download": "Download Resume"
   }
 }

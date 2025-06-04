@@ -28,5 +28,49 @@
     "intro": "Hallo! Ich bin Elham — eine kreative Full-Stack-Entwicklerin mit über 3 Jahren Erfahrung in der Entwicklung von responsiven, benutzerzentrierten Webanwendungen. Mit einem starken Hintergrund in UI/UX-Design spezialisiere ich mich auf den Aufbau schneller, zugänglicher und intuitiver digitaler Erlebnisse, die Design und Funktionalität nahtlos verbinden — von eleganten Frontends bis zu robusten Backends.",
     "point1": "Ich glaube an sauberen, skalierbaren Code, offene Zusammenarbeit und kontinuierliche Verbesserung — sei es durch Code-Reviews, Feedback oder das Eintauchen in einen neuen Tech-Stack.",
     "point2": "Ich bin immer offen für interessante Full-Stack-Projekte, designorientierte Produkte oder den Beitritt zu einem Team, das Kreativität und sauberen Code schätzt."
+  },
+  "resume": {
+    "experience": {
+      "title": "Berufserfahrung",
+      "job1": {
+        "company": "IT-Tecture (03.2023 - 02.2025)",
+        "role": "Web-Frontend-Entwickler",
+        "desc1": "Entwicklung von Webanwendungen mit React.js, Redux, JavaScript und TypeScript.",
+        "desc2": "UX/UI-Design-Verbesserung und -Gestaltung.",
+        "desc3": "Code-Reviews und Qualitätssicherung im agilen Umfeld."
+      },
+      "job2": {
+        "company": "Accenture (03.2023 - 08.2025)",
+        "role": "Software-Entwickler",
+        "desc1": "Frontend-Gestaltung mit HTML und CSS für responsive Benutzeroberflächen.",
+        "desc2": "Fullstack-Entwicklung mit HTML, CSS, JavaScript und Java."
+      },
+      "job3": {
+        "company": "Hepster (04.2021 - 02.2023)",
+        "role": "Web-Frontend-Entwickler",
+        "desc1": "Webentwicklung mit HTML, CSS, JavaScript und Vue.js.",
+        "desc2": "Tests mit Selenium und JavaScript für Benutzeroberflächen."
+      }
+    },
+    "education": {
+      "title": "Allgemeine und berufliche Bildung",
+      "edu1": {
+        "institution": "WBS Coding School (Berlin)",
+        "program": "Fullstack Web und App Development",
+        "frontend": "Frontend: HTML, CSS, JavaScript, React, KI Generative",
+        "backend": "Backend: Node.js, Express.js, MongoDB, SQL, Sicherheit"
+      },
+      "edu2": {
+        "institution": "M.Sc – Universität Rostock",
+        "program": "Informatik",
+        "thesis": "Masterarbeit über Klassifikationssysteme für didaktische Robotermodelle."
+      },
+      "edu3": {
+        "institution": "B.Sc – Payam-e-Noor Universität (Iran)",
+        "program": "Informatik",
+        "project": "Algorithmen zur Erzeugung und Kombination von Spezifikationen."
+      }
+    },
+    "download": "Lebenslauf herunterladen"
   }
 }
