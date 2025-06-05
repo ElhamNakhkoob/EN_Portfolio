@@ -6,7 +6,6 @@ const Resume = () => {
   return (
     <div className="min-h-screen px-4 py-12 text-white flex justify-center">
       <div className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-10">
-        {/* Left Column - Experience */}
         <div className="text-center md:text-left">
           <h2 className="text-2xl font-bold mb-6">
             {t("resume.experience.title")}
@@ -54,8 +53,6 @@ const Resume = () => {
             </div>
           </div>
         </div>
-
-        {/* Right Column - Education */}
         <div className="text-center md:text-left">
           <h2 className="text-2xl font-bold mb-6">
             {t("resume.education.title")}
