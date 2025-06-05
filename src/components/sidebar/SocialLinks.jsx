@@ -4,17 +4,17 @@ import XingIcon from "../../assets/images/xing.png";
 
 const socialData = [
   {
-    href: "https://github.com/yourusername",
+    href: "https://github.com/ElhamNakhkoob",
     icon: GithubIcon,
     alt: "GitHub",
   },
   {
-    href: "https://linkedin.com/in/yourusername",
+    href: "https://www.linkedin.com/in/elham-nakhkoob/",
     icon: LinkedinIcon,
     alt: "LinkedIn",
   },
   {
-    href: "https://www.xing.com/profile/yourusername",
+    href: "https://www.xing.com/profile/Elham_Nakhkoob044262",
     icon: XingIcon,
     alt: "Xing",
   },

@@ -47,13 +47,13 @@ const skills = {
 const Skils = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center text-white p-8">
-      <h1 className="text-4xl font-bold mb-8">Skills</h1>
-
       {Object.entries(skills).map(([category, items]) => (
         <div key={category} className="w-full max-w-4xl mb-10">
-          <h2 className="text-2xl font-semibold mb-4 capitalize text-center sm:text-left">
-            {category}
-          </h2>
+          <div className="flex justify-center mb-4">
+            <h2 className="text-2xl font-semibold capitalize text-center">
+              {category}
+            </h2>
+          </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
             {items.map(({ name, icon }) => (
               <div
