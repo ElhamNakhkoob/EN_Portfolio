@@ -72,5 +72,27 @@
       }
     },
     "download": "Lebenslauf herunterladen"
+  },
+  "projectOne": {
+    "title": "Find Food",
+    "intro": "Dies ist ein persönliches Frontend-Projekt, das erstellt wurde, um meine Fähigkeiten in der modernen Webentwicklung zu demonstrieren. Es wird nicht produktiv verwendet und dient dazu zu zeigen, wie ich mit Frontend-Technologien wie Layout, Interaktivität und API-Integration arbeite.",
+    "design": "Design",
+    "designAlt": "Figma-Design",
+    "tech": "Verwendete Technologien",
+    "features": "Hauptfunktionen",
+    "feature1": "Responsives Mobile-First-Layout",
+    "feature2": "Wiederverwendbare React-Komponenten",
+    "feature3": "Zustandsverwaltung mit Hooks",
+    "feature4": "Lokale API-Integration mit JSON Server",
+    "feature5": "Modulare und skalierbare Projektstruktur",
+    "repoTitle": "GitHub-Repository",
+    "repoDesc": "Der Quellcode ist auf GitHub verfügbar. Um das Projekt zu sehen, klone das Repository und führe es lokal aus.",
+    "repoLink": "Repository auf GitHub ansehen",
+    "installTitle": "So führen Sie das Projekt lokal aus",
+    "install1": "Repository klonen: git clone https://github.com/your-username/project-one",
+    "install2": "Wechseln Sie in das Projektverzeichnis: cd project-one",
+    "install3": "Abhängigkeiten installieren: npm install",
+    "install4": "JSON Server API starten: npm run server",
+    "install5": "React-App starten: npm start"
   }
 }

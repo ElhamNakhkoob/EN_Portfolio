@@ -72,5 +72,27 @@
       }
     },
     "download": "Download Resume"
+  },
+  "projectOne": {
+    "title": "Find Food",
+    "intro": "This is a personal frontend project created to showcase my skills in modern web development. It is not used in production and was built to demonstrate how I work with frontend technologies, including layout, interactivity, and API integration.",
+    "design": "Design",
+    "designAlt": "Figma Design",
+    "tech": "Technologies Used",
+    "features": "Key Features",
+    "feature1": "Responsive mobile-first layout",
+    "feature2": "Reusable React components",
+    "feature3": "State management with hooks",
+    "feature4": "Local API integration using JSON Server",
+    "feature5": "Modular and scalable project structure",
+    "repoTitle": "GitHub Repository",
+    "repoDesc": "The source code is available on GitHub. To view the project, clone the repo and run it locally.",
+    "repoLink": "View Repository on GitHub",
+    "installTitle": "How to Run Locally",
+    "install1": "Clone the repository: git clone https://github.com/your-username/project-one",
+    "install2": "Navigate to the project directory: cd project-one",
+    "install3": "Install dependencies: npm install",
+    "install4": "Start the JSON Server API: npm run server",
+    "install5": "Start the React app: npm start"
   }
 }
