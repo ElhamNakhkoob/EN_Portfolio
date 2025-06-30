@@ -94,5 +94,29 @@
     "install3": "Install dependencies: npm install",
     "install4": "Start the JSON Server API: npm run server",
     "install5": "Start the React app: npm start"
+  },
+  "projectTwo": {
+    "title": "AI Post & Comment System",
+    "intro": "This fullstack application allows users to create, view, update, and delete comments on AI-generated posts. It features a PostgreSQL database hosted on Neon, a Node.js backend, and a modern React frontend.",
+    "design": "UI and Functionality Overview",
+    "designAlt": "Screenshot of the AI Post & Comment System interface",
+    "tech": "Technologies Used",
+    "features": "Key Features",
+    "feature1": "AI post display with unique text content",
+    "feature2": "Users can add comments to the post",
+    "feature3": "Edit and delete functionality for comments",
+    "feature4": "Full CRUD operations using Sequelize and PostgreSQL",
+    "repoTitle": "GitHub Repository",
+    "repoDesc": "You can view the complete source code and contribute on GitHub:",
+    "repoLink": "View on GitHub",
+    "installTitle": "Local Installation Guide",
+    "install1": "Clone the repository using `git clone`.",
+    "install2": "Navigate to the `client/` and `server/` directories.",
+    "install3": "Run `npm install` in both directories to install dependencies.",
+    "install4": "Install frontend packages: `axios`, `react-router-dom`, `daisyui`.",
+    "install5": "Install backend packages: `express`, `sequelize`, `pg`, `cors`, `dotenv`, `node`.",
+    "install6": "Create a `.env` file in the server with your Neon DB credentials.",
+    "install7": "Run `npm run dev` in both `client/` and `server/` to start the app.",
+    "install8": "Open `http://localhost:5173` in your browser to view the app."
   }
 }

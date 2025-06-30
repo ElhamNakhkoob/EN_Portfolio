@@ -94,5 +94,29 @@
     "install3": "Abhängigkeiten installieren: npm install",
     "install4": "JSON Server API starten: npm run server",
     "install5": "React-App starten: npm start"
+  },
+  "projectTwo": {
+    "title": "KI-Post- & Kommentarsystem",
+    "intro": "Diese Fullstack-Anwendung ermöglicht es Benutzern, Kommentare zu KI-generierten Beiträgen zu erstellen, anzuzeigen, zu bearbeiten und zu löschen. Sie verwendet eine PostgreSQL-Datenbank (gehostet bei Neon), ein Node.js-Backend und ein modernes React-Frontend.",
+    "design": "UI- und Funktionsübersicht",
+    "designAlt": "Screenshot der Benutzeroberfläche des KI-Kommentarsystems",
+    "tech": "Verwendete Technologien",
+    "features": "Hauptfunktionen",
+    "feature1": "Anzeige von KI-generierten Beiträgen mit einzigartigem Inhalt",
+    "feature2": "Benutzer können zu Beitrag Kommentare hinzufügen",
+    "feature3": "Bearbeiten- und Löschfunktionen für Kommentare",
+    "feature4": "Komplette CRUD-Operationen mit Sequelize und PostgreSQL",
+    "repoTitle": "GitHub-Repository",
+    "repoDesc": "Du kannst den vollständigen Quellcode auf GitHub einsehen und mitwirken:",
+    "repoLink": "Auf GitHub ansehen",
+    "installTitle": "Installationsanleitung für lokale Umgebung",
+    "install1": "Repository mit `git clone` klonen.",
+    "install2": "In die Verzeichnisse `client/` und `server/` navigieren.",
+    "install3": "In beiden Verzeichnissen `npm install` ausführen, um Abhängigkeiten zu installieren.",
+    "install4": "Installiere Frontend-Pakete: `axios`, `react-router-dom`, `daisyui`.",
+    "install5": "Installiere Backend-Pakete: `express`, `sequelize`, `pg`, `cors`, `dotenv`, `node`.",
+    "install6": "Erstelle eine `.env`-Datei im Serververzeichnis mit deinen Neon-Datenbankdaten.",
+    "install7": "`npm run dev` sowohl im Client- als auch im Serververzeichnis starten.",
+    "install8": "`http://localhost:5173` im Browser öffnen, um die App zu sehen."
   }
 }

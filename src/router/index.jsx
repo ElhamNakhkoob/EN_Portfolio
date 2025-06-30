@@ -7,6 +7,7 @@ import Resume from "../pages/Resume";
 import Skils from "../pages/Skils";
 import Contact from "../pages/Contact";
 import ProjectOne from "../pages/projects/ProjectOne";
+import ProjectTwo from "../pages/projects/ProjectTwo";
 
 const router = createHashRouter([
   {
@@ -20,6 +21,7 @@ const router = createHashRouter([
       { path: "projects", element: <Projects /> },
       { path: "contact", element: <Contact /> },
       { path: "projects/project-one", element: <ProjectOne /> },
+      { path: "projects/project-two", element: <ProjectTwo /> },
     ],
   },
 ]);

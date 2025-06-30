@@ -1,4 +1,5 @@
 import foodImage from "../assets/images/food.png";
+import commentOne from "../assets/images/comment-one.png";
 
 const projectData = [
   {
@@ -7,8 +8,8 @@ const projectData = [
     slug: "project-one",
   },
   {
-    title: "Project Two",
-    image: "/assets/project2.jpg",
+    title: "Add Comment (FullStack Project)",
+    image: commentOne,
     slug: "project-two",
   },
   {
