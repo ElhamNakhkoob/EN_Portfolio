@@ -1,5 +1,6 @@
 import foodImage from "../assets/images/food.png";
 import commentOne from "../assets/images/comment-one.png";
+import pokemon from "../assets/images/pokemon.png";
 
 const projectData = [
   {
@@ -13,9 +14,9 @@ const projectData = [
     slug: "project-two",
   },
   {
-    title: "Project Three",
-    image: "/assets/project2.jpg",
-    slug: "project-two",
+    title: "Pokemon Battle (Fullstack Project)",
+    image: pokemon,
+    slug: "project-three",
   },
 ];
 

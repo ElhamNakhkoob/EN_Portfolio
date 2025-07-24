@@ -4,7 +4,7 @@ import projectData from "../data/projects";
 const Projects = () => {
   return (
     <div className="p-6">
-      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 mt-10">
         {projectData.map((project) => (
           <ProjectCard
             key={project.slug}

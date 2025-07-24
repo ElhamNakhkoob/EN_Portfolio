@@ -4,7 +4,7 @@ const Resume = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="min-h-screen px-4 py-12 text-white flex justify-center">
+    <div className="min-h-screen px-4 py-12 text-[#1e1e1e] flex justify-center">
       <div className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-10">
         <div className="text-center md:text-left">
           <h2 className="text-2xl font-bold mb-6">

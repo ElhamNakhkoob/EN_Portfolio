@@ -118,5 +118,21 @@
     "install6": "Create a `.env` file in the server with your Neon DB credentials.",
     "install7": "Run `npm run dev` in both `client/` and `server/` to start the app.",
     "install8": "Open `http://localhost:5173` in your browser to view the app."
+  },
+  "projectThree": {
+    "title": "Pokémon Battle Game",
+    "intro": "This fullstack Pokémon battle simulator uses the PokeAPI to fetch data and allows users to build a team, battle random Pokémon, and track scores on a live leaderboard.",
+    "design": "UI and Gameplay Overview",
+    "designAlt": "Screenshot of the Pokémon Battle Game",
+    "tech": "Technologies Used",
+    "features": "Key Features",
+    "feature1": "Dynamic Pokémon list retrieved from PokeAPI",
+    "feature2": "Detailed Pokémon view including stats, types, and abilities",
+    "feature3": "Build and manage a custom roster with localStorage",
+    "feature4": "Simple battle system based on stats and type advantages",
+    "feature5": "MongoDB-based leaderboard to save and rank scores",
+    "repoTitle": "GitHub Repository",
+    "repoDesc": "You can view the complete source code and contribute on GitHub:",
+    "repoLink": "View on GitHub"
   }
 }

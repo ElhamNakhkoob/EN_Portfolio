@@ -6,10 +6,11 @@ const ProjectCard = ({ title, image, slug }) => {
   return (
     <div
       onClick={() => navigate(`/projects/${slug}`)}
-      className="cursor-pointer rounded-2xl overflow-hidden shadow-lg transform transition-transform hover:scale-105 hover:shadow-2xl bg-white"
-    >      <img src={image} alt={title} className="w-full h-64 object-cover" />
-      <div className="p-6">
-        <h2 className="text-2xl font-semibold">{title}</h2>
+      className="cursor-pointer rounded-xl overflow-hidden shadow-md transition-transform hover:scale-105 hover:shadow-lg bg-white max-w-sm mx-auto"
+    >
+      <img src={image} alt={title} className="w-full h-70 object-cover" />
+      <div className="p-4">
+        <h2 className="text-lg font-semibold">{title}</h2>
       </div>
     </div>
   );

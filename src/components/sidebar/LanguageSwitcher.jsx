@@ -11,7 +11,7 @@ export default function LanguageSwitcher() {
     <select
       value={i18n.language}
       onChange={handleChange}
-      className="bg-gray-600 text-white text-sm rounded px-2 py-1 focus:outline-none hover:bg-gray-500"
+      className="bg-white text-[#1e1e1e] text-sm rounded px-2 py-1 border border-[#ccc] focus:outline-none focus:ring-2 focus:ring-[#662809]"
     >
       <option value="en">English</option>
       <option value="de">Deutsch</option>

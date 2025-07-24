@@ -5,7 +5,7 @@ const ProjectOne = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="p-6 max-w-4xl mx-auto text-white">
+    <div className="p-6 max-w-4xl mx-auto text-[#1e1e1e] mt-10">
       <h1 className="text-2xl font-bold mb-4">{t("projectOne.title")}</h1>
 
       <p className="text-lg mb-6">{t("projectOne.intro")}</p>
@@ -24,6 +24,7 @@ const ProjectOne = () => {
         <li>TypeScript</li>
         <li>JavaScript (ES6+)</li>
         <li>React</li>
+        <li>Next.js</li>
         <li>Figma</li>
         <li>JSON Server</li>
       </ul>

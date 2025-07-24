@@ -118,5 +118,21 @@
     "install6": "Erstelle eine `.env`-Datei im Serververzeichnis mit deinen Neon-Datenbankdaten.",
     "install7": "`npm run dev` sowohl im Client- als auch im Serververzeichnis starten.",
     "install8": "`http://localhost:5173` im Browser öffnen, um die App zu sehen."
+  },
+  "projectThree": {
+    "title": "Pokémon-Kampfspiel",
+    "intro": "Dieser Fullstack-Pokémon-Kampfsimulator verwendet die PokeAPI, um Daten abzurufen. Benutzer können ein Team zusammenstellen, gegen zufällige Pokémon kämpfen und ihre Punktzahl in einer Live-Rangliste verfolgen.",
+    "design": "UI- und Gameplay-Übersicht",
+    "designAlt": "Screenshot des Pokémon-Kampfspiels",
+    "tech": "Verwendete Technologien",
+    "features": "Hauptfunktionen",
+    "feature1": "Dynamische Pokémon-Liste von der PokeAPI abgerufen",
+    "feature2": "Detailansicht für jedes Pokémon mit Statistiken, Typen und Fähigkeiten",
+    "feature3": "Erstellen und Verwalten eines eigenen Teams mit localStorage",
+    "feature4": "Einfaches Kampfsystem basierend auf Werten und Typvorteilen",
+    "feature5": "Leaderboard mit MongoDB zur Speicherung und Anzeige der Punktzahlen",
+    "repoTitle": "GitHub-Repository",
+    "repoDesc": "Du kannst den vollständigen Quellcode auf GitHub einsehen und mitwirken:",
+    "repoLink": "Auf GitHub ansehen"
   }
 }

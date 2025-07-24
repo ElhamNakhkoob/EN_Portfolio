@@ -46,31 +46,30 @@ const skills = {
 
 const Skils = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center text-white p-8">
-      {Object.entries(skills).map(([category, items]) => (
-        <div key={category} className="w-full max-w-4xl mb-10">
-          <div className="flex justify-center mb-4">
-            <h2 className="text-2xl font-semibold capitalize text-center">
+    <div className="min-h-screen flex flex-col items-center text-[#1e1e1e] p-8 mt-10">
+      <h1 className="text-3xl font-bold mb-10">My Skills</h1>
+
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-12 w-full max-w-6xl">
+        {Object.entries(skills).map(([category, items]) => (
+          <div key={category} className="flex flex-col items-center">
+            <h2 className="text-2xl font-semibold capitalize mb-6 border-b-2 border-[#662809] pb-2 w-full text-center">
               {category}
             </h2>
+            <ul className="space-y-4">
+              {items.map(({ name, icon }) => (
+                <li key={name} className="flex items-center gap-3">
+                  <img
+                    src={icon}
+                    alt={name}
+                    className="w-6 h-6 object-contain"
+                  />
+                  <span className="text-base">{name}</span>
+                </li>
+              ))}
+            </ul>
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
-            {items.map(({ name, icon }) => (
-              <div
-                key={name}
-                className="flex flex-col items-center p-4 rounded-lg shadow hover:shadow-lg transition"
-              >
-                <img
-                  src={icon}
-                  alt={name}
-                  className="w-12 h-12 mb-2 object-contain"
-                />
-                <p className="text-sm text-center">{name}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 };
