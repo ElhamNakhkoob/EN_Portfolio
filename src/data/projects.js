@@ -1,6 +1,7 @@
 import foodImage from "../assets/images/food.png";
 import commentOne from "../assets/images/comment-one.png";
 import pokemon from "../assets/images/pokemon.png";
+import moodSyncImage from "../assets/images/moodsync.png";
 
 const projectData = [
   {
@@ -17,6 +18,11 @@ const projectData = [
     title: "Pokemon Battle (Fullstack Project)",
     image: pokemon,
     slug: "project-three",
+  },
+  {
+    title: "MoodSync",
+    image: moodSyncImage,
+    slug: "project-four",
   },
 ];
 

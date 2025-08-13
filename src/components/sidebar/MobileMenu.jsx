@@ -32,12 +32,15 @@ export default function MobileMenu({ navLinks, setMenuOpen, i18n, t }) {
             <NavLink
               to={to}
               end={exact}
-              className={({ isActive }) =>
-                isActive
-                  ? "block font-semibold py-2 px-4 bg-[#b9b2b0] text-white rounded"
-                  : "block py-2 px-4 text-[#333333] rounded hover:bg-gray-100 transition"
-              }
               onClick={() => setMenuOpen(false)}
+              className={({ isActive }) =>
+                `block w-full py-3 px-4 rounded-md font-medium transition-all duration-200 ease-in-out shadow-sm
+          ${
+            isActive
+              ? "bg-[#5a3e36] text-white"
+              : "bg-white text-[#333] hover:bg-[#e4dcd8] hover:text-[#5a3e36] border border-[#ddd]"
+          }`
+              }
             >
               {t(label)}
             </NavLink>

@@ -5,16 +5,19 @@ export default function NavLinks({ navLinks }) {
   const { t } = useTranslation();
 
   return (
-    <ul className="flex gap-4">
+    <ul className="flex gap-6">
       {navLinks.map(({ to, label, exact }) => (
         <li key={to}>
           <NavLink
             to={to}
             end={exact}
             className={({ isActive }) =>
-              isActive
-                ? "font-semibold border-b-4 border-[#5a3e36] pb-1 text-[#1e1e1e] transition"
-                : "text-[#333333] hover:border-b-2 hover:border-[#aaa] pb-1 transition"
+              `relative inline-block px-3 py-1 text-sm font-medium transition-all duration-200 ease-in-out
+              ${
+                isActive
+                  ? "text-[#5a3e36] after:absolute after:inset-x-0 after:-bottom-1 after:h-[2px] after:bg-[#5a3e36]"
+                  : "text-[#444] hover:text-[#5a3e36] hover:after:absolute hover:after:inset-x-0 hover:after:-bottom-1 hover:after:h-[2px] hover:after:bg-[#5a3e36] after:transition-all after:duration-200 after:ease-in-out"
+              }`
             }
           >
             {t(label)}

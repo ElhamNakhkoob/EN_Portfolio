@@ -134,5 +134,30 @@
     "repoTitle": "GitHub-Repository",
     "repoDesc": "Du kannst den vollständigen Quellcode auf GitHub einsehen und mitwirken:",
     "repoLink": "Auf GitHub ansehen"
+  },
+  "projectFour": {
+    "title": "MoodSync",
+    "intro": "Eine umfassende Anwendung für mentales Wohlbefinden, die Benutzer dabei unterstützt, ihre tägliche Stimmung und Aktivitäten zu verfolgen und KI-gestützte Erkenntnisse für ein besseres mentales Gesundheitsmanagement zu erhalten. Entwickelt als kollaboratives Gruppenprojekt mit Fokus auf benutzerzentriertem Design und intelligenten Empfehlungen.",
+    "design": "Design & Benutzeroberfläche",
+    "overviewTitle": "Projektübersicht",
+    "overview": "MoodSync ist eine Plattform für mentales Wohlbefinden, auf der Benutzer ihre täglichen Aktivitäten (Sport, Arbeit, Lesen usw.) und Emotionen über eine intuitive Oberfläche protokollieren können. Die KI analysiert Muster, um personalisierte Vorschläge zu liefern und hilft Benutzern, Wellness-Ziele wie besseren Schlaf oder häufigere Workouts zu setzen und zu verfolgen.",
+    "tech": "Verwendete Technologien",
+    "featuresTitle": "Hauptfunktionen",
+    "feature1": "Tägliches Stimmungs- & Aktivitätstracking mit Emoji-Auswahl und Texteingabe",
+    "feature2": "KI-gestützte Einblicke mit intelligenter Analyse von Stimmungsmustern und personalisierten Vorschlägen",
+    "feature3": "Zielsetzung & Fortschrittsverfolgung für Wellness-Ziele wie besserer Schlaf oder mehr Bewegung",
+    "feature4": "Interaktives Dashboard mit Wochenübersicht und motivierenden Inhalten",
+    "feature5": "KI-Chatbot-Integration für tägliche Gespräche und Verbesserung des mentalen Wohlbefindens",
+    "challengesTitle": "Herausforderungen & Lösungen",
+    "challenge1Title": "KI-Integration & Datenanalyse",
+    "challenge1Desc": "Die sinnvolle Implementierung der KI-Analyse von Stimmungsdaten erforderte eine sorgfältige Betrachtung von Datenmustern und Datenschutz. Wir entwickelten Algorithmen zur Kategorisierung von Aktivitäten und zur Korrelation mit Stimmungsindikatoren, um umsetzbare Erkenntnisse zu liefern.",
+    "challenge2Title": "UX-Design",
+    "challenge2Desc": "Eine intuitive Oberfläche für das Stimmungstracking zu schaffen, die nicht überfordernd wirkt, war herausfordernd. Wir nutzten Figma für umfangreiche Prototypen und Benutzertests, um sicherzustellen, dass sich die Emoji-Auswahl und Aktivitätserfassung natürlich und ansprechend anfühlen.",
+    "challenge3Title": "Teamarbeit",
+    "challenge3Desc": "Als Gruppenprojekt erforderte die Koordination verschiedener Entwicklungsstränge (Frontend, Backend, KI) eine starke Kommunikation und Versionskontrolle. Wir etablierten klare API-Verträge und regelmäßige Meetings, um den Projektfortschritt zu sichern.",
+    "demoTitle": "Live-Demo",
+    "demoText": "Hier findest du die Live-App und den Quellcode:",
+    "live": "Live-Demo ansehen",
+    "code": "Quellcode ansehen"
   }
 }

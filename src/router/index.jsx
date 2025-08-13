@@ -9,6 +9,7 @@ import Contact from "../pages/Contact";
 import ProjectOne from "../pages/projects/ProjectOne";
 import ProjectTwo from "../pages/projects/ProjectTwo";
 import ProjectThree from "../pages/projects/ProjectThree";
+import ProjectFour from "../pages/projects/ProjectFour";
 
 const router = createHashRouter([
   {
@@ -24,6 +25,7 @@ const router = createHashRouter([
       { path: "projects/project-one", element: <ProjectOne /> },
       { path: "projects/project-two", element: <ProjectTwo /> },
       { path: "projects/project-three", element: <ProjectThree /> },
+      { path: "projects/project-four", element: <ProjectFour /> },
     ],
   },
 ]);

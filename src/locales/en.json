@@ -134,5 +134,30 @@
     "repoTitle": "GitHub Repository",
     "repoDesc": "You can view the complete source code and contribute on GitHub:",
     "repoLink": "View on GitHub"
+  },
+  "projectFour": {
+    "title": "MoodSync",
+    "intro": "A comprehensive mental wellness application that helps users track their daily mood, activities, and receive AI-powered insights for better mental health management. Built as a collaborative group project focusing on user-centric design and intelligent recommendations.",
+    "design": "Design & Interface",
+    "overviewTitle": "Project Overview",
+    "overview": "MoodSync is a mental wellness platform where users can log their daily activities (sports, work, reading, etc.) and emotions through an intuitive interface. The AI analyzes patterns to provide personalized suggestions and helps users set and track wellness goals like better sleep or increased workout frequency.",
+    "tech": "Technologies Used",
+    "featuresTitle": "Key Features",
+    "feature1": "Daily Mood & Activity Tracking with emoji-based mood selection and text input",
+    "feature2": "AI-Powered Insights with smart analysis of mood patterns and personalized suggestions",
+    "feature3": "Goal Setting & Progress Tracking for wellness goals like better sleep or more workouts",
+    "feature4": "Interactive Dashboard with weekly activity overview and motivational content",
+    "feature5": "AI Chatbot Integration for daily conversations and mental health improvement suggestions",
+    "challengesTitle": "Challenges & Solutions",
+    "challenge1Title": "AI Integration & Data Analysis",
+    "challenge1Desc": "Implementing meaningful AI analysis of user mood data required careful consideration of data patterns and user privacy. We developed algorithms to categorize activities and correlate them with mood indicators to provide actionable insights.",
+    "challenge2Title": "User Experience Design",
+    "challenge2Desc": "Creating an intuitive interface for mood tracking that doesn't feel overwhelming was challenging. We used Figma for extensive prototyping and user testing to ensure the emoji-based mood selection and activity logging felt natural and engaging.",
+    "challenge3Title": "Team Collaboration",
+    "challenge3Desc": "As a group project, coordinating different development streams (frontend, backend, AI features) required strong communication and version control practices. We established clear API contracts and regular sync meetings to maintain project momentum.",
+    "demoTitle": "Live Demo",
+    "demoText": "Check out the live application and source code:",
+    "live": "View Live Demo",
+    "code": "View Source Code"
   }
 }
